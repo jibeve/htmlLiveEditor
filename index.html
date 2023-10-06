@@ -54,8 +54,8 @@
 
       function setupEditor() {
         window.editor = ace.edit("editor");
-        editor.setTheme("ace/theme/monokai");
-        editor.getSession().setMode("ace/mode/html");
+        editor.setTheme("ace/theme/monokai"); //set the theme color of the editor
+        editor.getSession().setMode("ace/mode/html"); //set the code MOde (html, JS, etc...)
         editor.setValue(
           `<!DOCTYPE html>
 <html>
